@@ -78,7 +78,7 @@
 
     <section id="works" class="container-fluid">
       <div class="row justify-content-center">
-        <div class="col-9">
+        <div class="col-md-9">
           <div class="card mb-3">
             <div class="row g-0">
               <div class="col-md-6">
@@ -105,7 +105,10 @@
                       <img src="assets/javaScript.png" class="p-2 bg-light rounded" alt="">
                     </li>
                   </ul>
-                  <a class="btn btn-outline-primary" href="" role="button">See Project</a>
+                  <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#tonic">
+                    See Project
+                  </button>
+
                 </div>
               </div>
             </div>
@@ -114,7 +117,7 @@
 
       </div>
       <div class="row justify-content-center">
-        <div class="col-9">
+        <div class="col-lg-9">
           <div class="card mb-3">
             <div class="row g-0">
               <div class="col-md-6">
@@ -151,7 +154,7 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-9">
+          <div class="col-lg-9">
             <div class="card mb-3">
               <div class="row g-0">
                 <div class="col-md-6">
@@ -188,7 +191,7 @@
 
           </div>
           <div class="row justify-content-center">
-            <div class="col-9">
+            <div class="col-lg-9">
               <div class="card mb-3">
                 <div class="row g-0">
                   <div class="col-md-6">
@@ -228,9 +231,79 @@
 
           </section>
 
+          <!-- Modal -->
+          <div class="modal fade" id="tonic" tabindex="-1" aria-labelledby="tonicLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header border-0">
+                  <div class="">
+                    <h3 class="modal-title" id="tonicLabel">Tonic</h3>
+                    <ul class="list-unstyled d-flex">
+                      <li class="pe-2">CANOPY</li>
+                      <li class="pe-2">Back End Dev</li>
+                      <li class="pe-2">2015</li>
+                    </ul >
+                  </div>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body py-0">
+                  <div class="row">
+                    <img class="img.fluid" src="assets/SnapshootPortfolio.png" alt="">
+                  </div>
+                  <div class="row py-4">
+                    <div class="col-md-8">
+                      <p>Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown
+                         printer took a galley of type and scrambled it 1960s with
+                         the releaLorem Ipsum is simply dummy text of the printing
+                         and typesetting industry. Lorem Ipsum has been the industry's
+                         standard dummy text ever since the 1500s, when an unknown printer
+                         took a galley of type and scrambled it 1960s with the releorem Ipsum
+                         is simply dummy text of the printing and typesetting industry.
+                         Lorem Ipsum han printer took a galley of type and scrambled
+                         it 1960s with the releawn printer took a galley of type and
+                         scrambled it 1960s with the releaLorem Ipsum is simply dummy
+                         text of the printing and typesetting industry. Lorem Ipsum has
+                         been the industry's standard dummy text ever since the 1500s,
+                         when an unknown printer took a galley of type and scrambled it
+                         1960s with the relea
+                       </p>
+
+                    </div>
+                    <div class="col-md-4">
+                      <div class="row">
+                        <ul class="list-unstyled d-flex">
+                          <li class="pe-3">
+                            <img src="assets/html.png" class="p-2 bg-light rounded" alt="">
+                          </li>
+                          <li class="pe-3">
+                            <img src="assets/css.png" class="p-2 bg-light rounded" alt="">
+                          </li>
+                          <li class="pe-3">
+                            <img src="assets/javaScript.png" class="p-2 bg-light rounded" alt="">
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <div class="col-6">
+                          <a class="btn btn-outline-primary" href="#" role="button">See Live</a>
+                        </div>
+                        <div class="col-6">
+                          <a class="btn btn-outline-primary" href="#" role="button">See Source</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--About section-->
           <section id="about" class="container-fluid bg-white my-5 py-5">
             <div class="row gx-4 justify-content-center">
-              <div class="col-4">
+              <div class="col-10 col-md-4">
                 <h2>About</h2>
                 <h2>Myself</h2>
                 <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience!
@@ -266,7 +339,7 @@
                 </ul>
                 <a class="btn btn-outline-primary" href="#" role="button">Get My Resume </a>
               </div>
-              <div class="col-6">
+              <div class="col-10 col-md-6">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
@@ -373,7 +446,7 @@
 
           <section id="contactMe" class="container-fluid bg-light py-5 ">
             <div class="row justify-content-center my-5">
-              <div class="col-5">
+              <div class="col-10 col-md-5">
                 <h2 class="text-center">Contact me</h2>
                 <p class="text-center">If you have an application you are interested in developing, a
                   feature that you need built or a project that needs coding. I’d love to help with it
